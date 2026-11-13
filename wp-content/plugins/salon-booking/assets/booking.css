@@ -1,0 +1,13 @@
+.sbk-form{--sbk-accent:#27272a;--sbk-border:#d4d4d8;--sbk-radius:8px;display:grid;gap:1rem;max-width:560px;width:100%;box-sizing:border-box}
+.sbk-form *{box-sizing:border-box}
+.sbk-title{margin:0 0 .25rem}
+.sbk-field{display:grid;gap:.35rem;font:inherit}
+.sbk-field input,.sbk-field select{width:100%;min-height:46px;padding:.65rem .75rem;border:1px solid var(--sbk-border);border-radius:var(--sbk-radius);background:#fff;color:inherit;font:inherit}
+.sbk-field select option.sbk-booked-option{color:#71717a;background:#f4f4f5}
+.sbk-submit{min-height:48px;padding:.7rem 1rem;border:0;border-radius:var(--sbk-radius);background:var(--sbk-accent);color:#fff;font:inherit;cursor:pointer}
+.sbk-submit:disabled{opacity:.6;cursor:wait}
+.sbk-message{min-height:1.5em;margin:0}.sbk-error{color:#b91c1c}
+.sbk-trap{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+.sbk-date-field,.sbk-date-field input:not(:disabled){cursor:pointer}
+.sbk-date-field input:disabled{cursor:not-allowed}
+.sbk-date-field input::-webkit-calendar-picker-indicator{width:20px;height:20px;cursor:pointer;opacity:.7}
